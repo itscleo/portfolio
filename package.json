@@ -8,7 +8,7 @@
   "main": "./server/index.js",
   "scripts": {
     "start": "nodemon ./server",
-    "build": "webpack -w",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
