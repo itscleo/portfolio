@@ -2,7 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "engines": {
+    "node": "10.15.2"
+  },
+  "main": "./server/index.js",
   "scripts": {
     "start": "nodemon ./server",
     "build": "webpack -w",
@@ -18,6 +21,7 @@
     "path": "^0.12.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
