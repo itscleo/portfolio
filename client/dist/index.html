@@ -1,102 +1,117 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Cleo Chai</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <nav class="navbar navbar-default sticky-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">Cleo Chai</a>
-        </div>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  <div class="wallpaper">
-    <div class="section">
-      <p class="text-color">{ Placeholder for large banner }</p>
-    </div>
-    <!-- About Me -->
-    <div class="section" id="about">
-      <h2>ABOUT ME</h2>
-      <img class="profile-pic" src="./images/heroku-ninja-avatar-96x96.png">
-      <p class="text-color">{ Placeholder above for a nice profile picture }</p>
-      <p>I'm a front end developer with a passion for designing beautiful UI and believe in utilizing data and technology to benefit people and businesses. In my free time, I enjoy picking up new hobbies, playing video games, and watching cooking videos. </p>
-      <div class="pad"></div>
-      <div class="icon-row-container">
-        <div class="icon-col-container">
-          <p>HTML</p>
-          <div class="d-flex icon-circle">
-            <img class="icon" src="./images/HTML5.svg.png">
-          </div>
-        </div>
-        <div class="icon-col-container">
-          <p>CSS</p>
-          <div class="d-flex icon-circle">
-            <img class="icon" src="./images/css3.png">
-          </div>
-        </div>
-        <div class="icon-col-container">
-          <p>JavaScript</p>
-          <div class="d-flex icon-circle">
-            <img class="icon" src="./images/javascript-1.svg">
-          </div>
-        </div>
-        <div class="icon-col-container">
-          <p>React</p>
-          <div class="d-flex icon-circle">
-            <img class="icon2" src="./images/react.png">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio -->
-    <div id="portfolio">
-      <h2>PORTFOLIO</h2>
-      <p class="text-color">{ Placeholder for amazing project }</p>
-      <p class="text-color">{ Placeholder for amazing project }</p>
-      <p class="text-color">{ Placeholder for amazing project }</p>
-    </div>
-    <!-- Contact -->
-    <div class="section" id="contact">
-      <h2>CONTACT</h2>
-      <form>
-        <div class="form-group">
-          <label for="InputEmail" class="small-pad text-color">Email address</label>
-          <input type="email" class="form-control" id="InputEmail" placeholder="email" required="">
-          <label for="InputSubject" class="small-pad text-color">Subject</label>
-          <input type="text" class="form-control" id="InputSubject" placeholder="subject" required="">
-          <label for="InputMessage" class="small-pad text-color">Message</label>
-          <textarea class="form-control" id="InputMessage" placeholder="message" required=""></textarea>
-          <button type="submit" class="btn btn-primary spacing">Send</button>
-          
-        </div>
-      </form>
-    </div>
-      <!-- Footer -->
-    <div>
-      <p class="text-color">Unfinished portfolio website by Cleo Chai<br>
-        Do not judge! Final version will be different and redesigned with React</p>
-    </div>
-  </div>
-  <div id="app"><div></div></div>
-  <script src="bundle.js"></script>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151751867-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-</body></html>
+      gtag('config', 'UA-151751867-1');
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cleo Chai</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <nav class="navbar navbar-default sticky-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Cleo Chai</a>
+          </div>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="wallpaper">
+      <div class="section">
+        <p class="text-color">{ Placeholder for large banner }</p>
+      </div>
+      <!-- About Me -->
+      <div class="section" id="about">
+        <h2>ABOUT ME</h2>
+        <img class="profile-pic" src="./images/heroku-ninja-avatar-96x96.png">
+        <p class="text-color">{ Placeholder above for a nice profile picture }</p>
+        <p>I'm a front end developer with a passion for designing beautiful UI and believe in utilizing data and technology to benefit people and businesses. In my free time, I enjoy picking up new hobbies, playing video games, and watching cooking videos. </p>
+        <div class="pad"></div>
+        <div class="icon-row-container">
+          <div class="icon-col-container">
+            <p>HTML</p>
+            <div class="d-flex icon-circle">
+              <img class="icon" src="./images/HTML5.svg.png">
+            </div>
+          </div>
+          <div class="icon-col-container">
+            <p>CSS</p>
+            <div class="d-flex icon-circle">
+              <img class="icon" src="./images/css3.png">
+            </div>
+          </div>
+          <div class="icon-col-container">
+            <p>JavaScript</p>
+            <div class="d-flex icon-circle">
+              <img class="icon" src="./images/javascript-1.svg">
+            </div>
+          </div>
+          <div class="icon-col-container">
+            <p>React</p>
+            <div class="d-flex icon-circle">
+              <img class="icon2" src="./images/react.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio -->
+      <div id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <p class="text-color">{ Placeholder for amazing project }</p>
+        <p class="text-color">{ Placeholder for amazing project }</p>
+        <p class="text-color">{ Placeholder for amazing project }</p>
+      </div>
+      <!-- Contact -->
+      <div class="section" id="contact">
+        <h2>CONTACT</h2>
+        <form>
+          <div class="form-group">
+            <!-- <label for="InputEmail" class="small-pad text-color">Email address</label> -->
+            <input type="email" class="form-control spacing" id="InputEmail" placeholder="email" required>
+            <!-- <label for="InputName" class="small-pad text-color">Full name</label> -->
+            <input type="text" class="form-control spacing" id="InputName" placeholder="full name" required>
+            <!-- <label for="InputCompany" class="small-pad text-color">Company</label> -->
+            <input type="text" class="form-control spacing" id="InputCompany" placeholder="company">
+            <!-- <label for="InputSubject" class="small-pad text-color">Subject</label> -->
+            <input type="text" class="form-control spacing" id="InputSubject" placeholder="subject" required>
+            <!-- <label for="InputMessage" class="small-pad text-color">Message</label> -->
+            <textarea class="form-control spacing" id="InputMessage" placeholder="message" required></textarea>
+            <button type="submit" class="btn btn-primary spacing">Send</button>
+            
+          </div>
+        </form>
+      </div>
+        <!-- Footer -->
+      <div>
+        <p class="text-color">Unfinished portfolio website by Cleo Chai<br>
+          Do not judge! Final version will be different and redesigned with React</p>
+      </div>
+    </div>
+    <div id="app"><div></div></div>
+    <script src="bundle.js"></script>
+
+  </body>
+</html>
